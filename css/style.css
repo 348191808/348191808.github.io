@@ -1,0 +1,92 @@
+body {
+    background: url(../images/bg.jpg) no-repeat;
+}
+
+.main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.top {
+    position: relative;
+}
+
+.top .topbar {
+    width: 1000px;
+    height: 150px;
+}
+
+.top .logo {
+    position: absolute;
+    top: -10px;
+    right: 30px;
+}
+
+.ad {
+    background: orange;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.table,
+tr,
+th,
+td {
+    border: 1px solid red;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.table tr th {
+    color: white;
+    background: orangered;
+    height: 30px;
+}
+
+.table a {
+    color: #000;
+}
+
+.table .niu {
+    background: yellow;
+}
+
+.table .niu img {
+    vertical-align: middle;
+}
+
+.table td {
+    height: 30px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.table .niu:hover {
+    background: #ee82ee;
+}
+
+.table .hot {
+    background: #ffc1c1;
+}
+
+.table .hot:hover {
+    background: #7fffd4;
+}
+
+.table .cool {
+    background: #66ccff;
+}
+
+.table .cool:hover {
+    background: #fff;
+}
+
+.table .shuang {
+    background: #9aff9a;
+}
+
+.table .shuang:hover {
+    background: #ffd700;
+}
